@@ -1,8 +1,11 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ubuntu
+- source: /
+    destination: /home/ubuntu/foo
+permissions:
+  - object: /home/ubuntu/foo/deploy_hooks
+    mode: 755
 hooks:
   AfterInstall:
     - location: afterinstall.sh
