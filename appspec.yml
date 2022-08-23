@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu
+    destination: /home/Users/abhis/Desktop/aws_codedeploy_using_github
 hooks:
   AfterInstall:
     - location: afterinstall.sh
