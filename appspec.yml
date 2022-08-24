@@ -5,8 +5,8 @@ files:
     destination: /home/cloudshell-user/ubuntu
 hooks:
   AfterInstall:
-    - location: afterinstall.sh
+    - location: ubuntu/afterinstall.sh
       timeout: 100
   ApplicationStart:
-    - location: applicationstart.sh
+    - location: ubuntu/applicationstart.sh
       timeout: 100
