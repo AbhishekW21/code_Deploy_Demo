@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/cloudshell-user/ubuntu
+    destination: /home/ubuntu
 hooks:
   AfterInstall:
     - location: public/afterinstall.sh
