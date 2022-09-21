@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/cloudshell-user/ubuntu
+cd /home/ec2-user/environment
 npm -f install
